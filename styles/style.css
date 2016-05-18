@@ -1,0 +1,177 @@
+.site{
+	display: flex;
+	height: 98vh;
+	min-height: 400px;
+	flex-direction: column;
+}
+
+.header_and_body{
+	flex: 1;
+}
+/*Top Navigation Bar */
+.header {
+	display: flex;
+	justify-content: flex-end;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header li {
+	float: left;
+	display: block;
+	padding: 8px;
+	text-align: center;
+}
+#name {
+	color: grey;
+}
+
+.link:link {
+	color: black;
+	text-decoration: none;
+}
+.link:visited{
+	color: black;
+	text-decoration: none;
+}
+.link:hover{
+	text-decoration: underline;
+}
+
+#square{
+	position: relative;
+	top: -4px;
+}
+#bell{
+	position: relative;
+	top: -3px;
+}
+
+#me{
+	position: relative;
+	top: -8px;
+	height: 35px;
+	width: 35px;
+	border-radius: 60px;
+}
+
+
+/*Main Search Area*/
+div.center {
+	height: 50vh;
+	width: 50vw;
+  	margin: auto;
+ 	position: relative;
+ 	top: 0;
+ 	bottom: 0;
+ 	left: 0;
+ 	right: 0;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+#logo {
+	height: 100px;
+	width: 300px;
+}
+
+#searchbox{
+	position: relative;
+}
+
+#searchbar {
+	width: 600px;
+	height: 40px;
+}
+
+#mic {
+	position: absolute;
+	top: 5px;
+	right: 185px;
+}
+
+.searchbutton {
+	height: 40px;
+	border: none;
+	color: gray;
+}
+
+.searchbutton:hover {
+	color: black;
+	outline-style: solid;
+	outline-width: 1px;
+	outline-color: grey;
+}
+
+.searchbutton:active{
+	color: black;
+	outline-style: solid;
+	outline-width: 1px;
+	outline-color: blue;
+}
+.searchbutton:focus{
+	color: black;
+	outline-style: solid;
+	outline-width: 1px;
+	outline-color: lightblue;
+}
+/* Bottom Navigation Bar */
+
+.footer{
+	display: block;
+	position: absolute;
+	bottom: 1px;
+	left: 0;
+	background: #f2f2f2;
+	height: 40px;
+	width: 100%;
+	outline-style: solid;
+	outline-color: lightgrey;
+	outline-width: 1px;
+}
+
+.footer ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+/*I cannot seem to get these footers to center vertically without manually doing the position: relative; top: px; adjustments manually. Contact me if you can fix it! Github: henrythedj*/
+.footerleft{
+	position: relative;
+	margin-left: 30px;
+	top: 10px
+}
+
+.footerright{
+	position: relative;
+	top: -10px;
+	float: right;
+	margin-right: 30px;
+}
+
+.footer li {
+	display: inline;
+	padding: 8px;
+}
+.footlink:link {
+	color: grey;
+	text-decoration: none;
+}
+.footlink:visited{
+	color: grey;
+	text-decoration: none;
+}
+.footlink:hover {
+
+	text-decoration: underline;
+}
+.footlink:active {
+	color: red;
+	text-decoration: underline;
+}
